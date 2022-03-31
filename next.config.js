@@ -1,6 +1,7 @@
 module.exports = {
   reactStrictMode: true,
-  env: { //variables de entorno
+  env: {
+    //variables de entorno
     customKey: 'customValue',
   },
   basePath: '/dist', //acá se encuentra nuestro proyecto
@@ -11,7 +12,7 @@ module.exports = {
         source: '/hola',
         destination: 'https://gndx.dev', //cuando el usuario nos redirecciona a /hola lo enviaremos a https://gndx.dev
         permanent: true,
-      }
-    ]
-  }
-}
+      },
+    ];
+  },
+};
